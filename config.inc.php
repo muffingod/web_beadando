@@ -16,15 +16,10 @@
             'file' => 'connection',
             'text' => 'Kapcsolat'
         ),
-        'login' => array(
-            'file' => 'login',
+        'logreg' => array(
+            'file' => 'logreg',
             'text' => 'Belépés'
-        ),
-        'registration' => array(
-            'file' => 'registration',
-            'text' => 'Regisztráció'
         )
-
     );
 
     $error_page = array(
