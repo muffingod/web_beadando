@@ -13,7 +13,11 @@
         <ul class="navbar-nav">
             <?php
                 foreach ($pages as $url => $page ) {
-                    echo "<li class='nav-item'>";
+                    if($page == $current){
+                        echo "<li class='nav-item active'>";
+                    }else{
+                        echo "<li class='nav-item'>";
+                    }
                     echo "<a class='nav-link' href='./" . ($url == '/' ? '' : '?page='.$url) . "'>";
                     echo "<i class='fas " . $page['icon'] . "'></i>";
                     echo "<span class='link-text'>";

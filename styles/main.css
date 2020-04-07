@@ -18,7 +18,6 @@ body{
 }
 
 .navbar{
-    background-color: darkmagenta;
     width: 5rem;
     height: 100vh;
     position: fixed;
@@ -38,6 +37,11 @@ body{
 
 .nav-item{
     width: 100%;
+}
+
+.active{
+    /* border-radius: 0.5rem; */
+    border-right: #2C868E 3px solid;
 }
 
 .nav-link{
