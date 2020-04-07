@@ -5,7 +5,7 @@
 
     $pages = array(
         '/' => array(
-            'file' => 'registration',
+            'file' => 'main',
             'text' => 'Főoldal'
         ),
         'about' => array(
@@ -15,7 +15,16 @@
         'connection' => array(
             'file' => 'connection',
             'text' => 'Kapcsolat'
+        ),
+        'login' => array(
+            'file' => 'login',
+            'text' => 'Belépés'
+        ),
+        'registration' => array(
+            'file' => 'registration',
+            'text' => 'Regisztráció'
         )
+
     );
 
     $error_page = array(
