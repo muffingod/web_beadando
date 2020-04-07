@@ -18,6 +18,11 @@
             'file' => 'connection',
             'text' => 'Kapcsolat',
             'icon' => 'fa-envelope'
+        ),
+        'logreg' => array(
+            'file' => 'logreg',
+            'text' => 'Belépés',
+            'icon' => 'fa-sign-in-alt'
         )
     );
 
