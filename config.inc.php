@@ -6,15 +6,18 @@
     $pages = array(
         '/' => array(
             'file' => 'main',
-            'text' => 'Főoldal'
+            'text' => 'Főoldal',
+            'icon' => 'fa-home'
         ),
         'about' => array(
             'file' => 'about',
-            'text' => 'Rólunk'
+            'text' => 'Rólunk',
+            'icon' => 'fa-address-card'
         ),
         'connection' => array(
             'file' => 'connection',
-            'text' => 'Kapcsolat'
+            'text' => 'Kapcsolat',
+            'icon' => 'fa-envelope'
         )
     );
 
