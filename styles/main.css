@@ -8,10 +8,11 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #97C8EB;
+    background-color: #97c8eb;
 }
 
 .main{
+
     margin-left: 5rem;
     padding: 1rem;
     color: #001011;
@@ -77,4 +78,13 @@ body{
 
 .navbar:hover .link-text{
     display: block;
+}
+
+header img{
+    padding: 1.25rem 1rem 0 1rem;
+    width: 100px;
+}
+
+header h1{
+    display: inline-block;
 }

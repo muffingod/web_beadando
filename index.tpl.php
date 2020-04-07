@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <nav class="navbar">
@@ -30,6 +31,7 @@
         </ul>
     </nav>
     <header class="main">
+        <img src="./images/eddie.png" alt="Eddie logo">
         <h1>Eddie</h1>
     </header>
     <main class="main">
