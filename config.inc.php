@@ -5,7 +5,7 @@
 
     $pages = array(
         '/' => array(
-            'file' => 'main',
+            'file' => 'registration',
             'text' => 'Főoldal'
         )
     );
