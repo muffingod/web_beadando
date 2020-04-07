@@ -9,9 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
 </head>
 <body>
-    <header class="main">
-        <h1>Eddie</h1>
-    </header>
     <nav class="navbar">
         <ul class="navbar-nav">
             <?php
@@ -19,7 +16,7 @@
                     echo "<li class='nav-item'>";
                     echo "<a class='nav-link' href='./" . ($url == '/' ? '' : '?page='.$url) . "'>";
                     echo "<i class='fas " . $page['icon'] . "'></i>";
-                    echo "<span class='nav-link'>";
+                    echo "<span class='link-text'>";
                     echo $page['text'];
                     echo "</span>";
                     echo "</a>";
@@ -28,6 +25,9 @@
             ?>
         </ul>
     </nav>
+    <header class="main">
+        <h1>Eddie</h1>
+    </header>
     <main class="main">
         <?php include("pages/{$current['file']}.tpl.php") ?>
     </main>
