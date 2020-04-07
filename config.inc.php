@@ -7,6 +7,14 @@
         '/' => array(
             'file' => 'main',
             'text' => 'Főoldal'
+        ),
+        'about' => array(
+            'file' => 'about',
+            'text' => 'Rólunk'
+        ),
+        'connection' => array(
+            'file' => 'connection',
+            'text' => 'Kapcsolat'
         )
     );
 
