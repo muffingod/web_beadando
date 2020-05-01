@@ -19,8 +19,8 @@
             'text' => 'Galléria',
             'icon' => 'fa-images'
         ),
-        'connection' => array(
-            'file' => 'connection',
+        'message' => array(
+            'file' => 'message',
             'text' => 'Kapcsolat',
             'icon' => 'fa-envelope'
         ),
@@ -33,6 +33,11 @@
             'file' => 'logout',
             'text' => 'Kilépés',
             'icon' => 'fa-sign-out-alt'
+        ),
+        'sentmessage' => array(
+            'file' => 'sentmessage',
+            'text' => '',
+            'icon' => ''
         )
     );
 
