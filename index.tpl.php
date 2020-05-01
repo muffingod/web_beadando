@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?=$header['title']?></title>
     <link rel="stylesheet" href="./styles/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 </head>
@@ -33,6 +33,13 @@
     <header class="main">
         <img src="./images/eddie.png" alt="Eddie logo">
         <h1>Eddie</h1>
+        <p>
+            <?php
+                if(isset($_SESSION['user'])){
+                    echo "<strong>Bejelentkezett:</strong> " . $_SESSION['user']['firstname'] . " " . $_SESSION['user']['lastname'] . " (" . $_SESSION['user']['username'] . ")";
+                }
+            ?>
+        </p>
     </header>
     <main class="main">
         <?php include("pages/{$current['file']}.tpl.php") ?>
