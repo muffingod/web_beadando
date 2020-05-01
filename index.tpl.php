@@ -14,6 +14,8 @@
         <ul class="navbar-nav">
             <?php
                 foreach ($pages as $url => $page ) {
+                    if($page['text'] == "Belépés" && isset($_SESSION['user'])) continue;
+                    if($page['text'] == "Kilépés" && !isset($_SESSION['user'])) continue;
                     if($page == $current){
                         echo "<li class='nav-item active'>";
                     }else{
