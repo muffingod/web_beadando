@@ -9,10 +9,7 @@
 
             if($row!=null){
                 
-                $_SESSION['firstname'] = $row['firstname'];
-                $_SESSION['lastname'] = $row['lastname'];
-                $_SESSION['username'] = $row['username'];
-                $_SESSION['email'] = $row['email'];
+                $_SESSION['user'] = $row;
 
                 echo "Sikeres bejelentkezés!";
                 header('Location: ./');
