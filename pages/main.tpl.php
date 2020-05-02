@@ -9,3 +9,5 @@
 <h2>Szülőknek</h2>
 <p>Mit gondolsz, a telefon és az iskola lehetnek barátok? Az Eddie célja, hogy a diákok tanulási
 folyamatát élményszerűbbé tegye a modern technológiák és a gyerekek mai ingerküszöbéhez méltó megoldásokkal.</p>
+
+<video width="320" height="240" autoplay loop>   <source src="./videos/eddie.mp4" type="video/mp4">   </video>

@@ -88,3 +88,16 @@ header img{
 header h1{
     display: inline-block;
 }
+
+.team-members img{
+    width: 600px;
+    margin: 5px 10px;
+}
+
+#gallery .kep{
+    display: inline-block;
+    margin: 5px;
+}
+#gallery .kep img{
+    width: 400px;
+}

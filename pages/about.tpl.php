@@ -10,3 +10,7 @@
     <img src="./images/team/toser_mate_socmed_introduction.png" alt="Tősér Máté">
     <img src="./images/team/vogyak_kristof_socmed_introduction.png" alt="Vogyák Kristóf">
 </div>
+<div class="event-video">
+    <h1>Eddie a BrainBar Blastoff eseményen</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LMGYBJ6wWCk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
