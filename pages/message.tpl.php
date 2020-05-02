@@ -19,7 +19,7 @@ if(@$_POST['email'] != null && @$_POST['message'] != null){
 }
 ?>
 
-<script src="./includes/message_validation.js"></script>
+
 
 <form action="" method="post" onsubmit="return validate();">
     <input id="email" type="email" name="email" id="" placeholder="E-mail cím"><br>
@@ -28,3 +28,5 @@ if(@$_POST['email'] != null && @$_POST['message'] != null){
     <textarea id="message" name="message" id="" cols="30" rows="10"></textarea></br>
     <input id="submit" type="submit" value="Küldés">
 </form>
+
+<script src="./javascripts/message_validation.js"></script>
