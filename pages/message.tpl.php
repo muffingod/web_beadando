@@ -17,18 +17,27 @@ if(@$_POST['email'] != null && @$_POST['message'] != null){
         $_SESSION['sentmsg']=array( "email" => $email, "ishungarian" => $ishungarian, "message" => $message);
         header('Location: ./?page=sentmessage');
     }
-    
-}else{
-    echo "Hiányos adatok!";
 }
-
 ?>
 
+<script type="text/javascript">
+    function validate(){
+        var pattern = /^([A-Za-z0-9_∖-∖.])+@([A-Za-z0-9_∖-∖.])+.([A-Za-z]{2,4})$/;
+        var email=String(document.getElementById("email").value);
+        if(email.match(pattern) == null ){
+            alert("Hibás e-mail!");
+        }
+
+        if(document.getElementById("message").value.length == 0 ){
+            alert("Az üzenet nem lehet üres!");
+        }
+    }
+</script>
 
 <form action="" method="post">
-    <input type="email" name="email" id="" placeholder="E-mail cím"><br>
+    <input id="email" type="email" name="email" id="" placeholder="E-mail cím" ><br>
     <input type="checkbox" name="ishungarian" id="">
     <label for="ishungarian">Magyar</label></br>
-    <textarea name="message" id="" cols="30" rows="10"></textarea></br>
-    <input type="submit" value="Küldés">
+    <textarea id="message" name="message" id="" cols="30" rows="10" ></textarea></br>
+    <input id="submit" type="submit" value="Küldés" onclick="validate()">
 </form>
